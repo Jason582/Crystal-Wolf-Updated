@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    /* background: linear-gradient(90deg, rgb(45, 45, 45) 0%, rgb(48, 48, 48) 35%, rgb(24, 24, 24) 100%); */
+    background-color: rgb(20, 20, 20);
+    }
+
+
+/* Preloader */
+
+  p {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5em;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    width: 17%;
+  }
+
+  .image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5%;
+    width: 48%;
+  }
+
+
+  #imagesBoth {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    width: 50%;
+  }
+
+  #styles {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2%;
+    width: 60%;
+  }
+
+  .scrollDown {
+    position: relative;
+    z-index: 3;
+    }
+
+  .scroll {
+    position: absolute;
+    z-index: 3;
+    animation: move 1s infinite alternate;
+    width: 3%;
+    padding-top: 2%;
+    left: 48.75%;
+    opacity: 8%;
+  }
+
+  @keyframes move {
+    from {
+        transform: translateY(-7px);
+    }
+    to {
+        transform: translateY(7px);
+    }
+  }
+
+  .sketches2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0%;
+    width: 60%;
+  }
+
+  .screens2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
+
+
+/* Desktop */
+@media screen and (min-width: 1024px) {
+
+
+}
+
+/* Tablet to Desktop */
+@media screen and (max-width: 1023px) and (min-width: 500px) {
+
+  .image1 {
+    width: 90%;
+  }
+
+  .scrollDown {
+    display: none;
+    }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 15%;
+    width: 50%;
+  }
+
+  #imagesBoth {
+    padding-top: 22%;
+    width: 90%;
+  }
+
+  #styles {
+    width: 90%;
+    padding-top: 23%;
+  }
+
+  .sketches2 {
+    width: 100%;
+    padding-top: 22%;
+  }
+
+  .screens2 {
+    width: 90%;
+    padding-top: 25%;
+    padding-bottom: 20%;
+  }
+
+  .click1 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+
+}
+  
+/* Mobile */
+@media screen and (max-width: 499px) and (min-width: 50px) {
+
+  .image1 {
+    width: 90%;
+  }
+
+  .scrollDown {
+    display: none;
+    }
+
+  .logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4%;
+    margin-bottom: 15%;
+    width: 50%;
+  }
+
+  #imagesBoth {
+    padding-top: 22%;
+    width: 90%;
+  }
+
+  #styles {
+    width: 90%;
+    padding-top: 23%;
+  }
+
+  .sketches2 {
+    width: 100%;
+    padding-top: 22%;
+  }
+
+  .screens2 {
+    width: 90%;
+    padding-top: 25%;
+    padding-bottom: 20%;
+  }
+
+  .click1 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+}
